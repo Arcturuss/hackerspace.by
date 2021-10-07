@@ -197,4 +197,9 @@ nav ul.nav.navbar-nav> li > a {
   .container img {
     max-width: 100%;
   }
+
+  /* fix for images inside table */
+  .container table img {
+    max-width: initial;
+  }
 } 
